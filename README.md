@@ -89,16 +89,6 @@ python tm_simulator.py --verify   # exhaustive check, length 0 to 12
 
 To reproduce the JFLAP model, create a Turing Machine in JFLAP with the transitions above (JFLAP draws the blank as □), mark q0 as initial and q3 as final.
 
-## Repository layout
-
-```
-.
-├── README.md
-├── tm_simulator.py        # simulator and exhaustive verifier
-├── report/
-│   └── TM_Project_Report.docx   # full project report
-└── images/                # state diagram, JFLAP screenshots, charts
-```
 
 ## Limitations
 
